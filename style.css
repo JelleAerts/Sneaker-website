@@ -23,8 +23,8 @@ header {
   left: 0;
   position: absolute;
 }
-.test {
-  height: 280px;
+.div-sneaker-black {
+  height: 300px;
   margin-top: 560px;
   position: relative;
   z-index: 9;
@@ -142,13 +142,13 @@ h1 {
   height: 50px;
   width: 103px;
   margin: 0 auto;
-  padding-left: 700px;
-  padding-top: 35px;
+  margin-left: 700px;
+  margin-top: 35px;
   transition: transform 0.5s;
 }
 
 .lees-meer-bottom:hover {
-  transform: scale(1.015);
+  transform: scale(1.15);
 }
 
 .white-block-top {
@@ -193,7 +193,7 @@ h1 {
   display: inline-block;
   height: 392px;
   width: 268px;
-  background-image: url(../img/Jordan-sitting.jpg);
+  background-image: url(../img/jordan-sitting.png);
   background-repeat: no-repeat;
   background-size: 268px 392px;
   margin-left: 50px;
@@ -352,14 +352,14 @@ h1 {
   height: 42px;
   width: 93px;
   margin: 0 auto;
-  padding-left: 980px;
+  margin-left: 980px;
   position: absolute;
-  padding-top: 240px;
+  margin-top: 240px;
   transition: transform 0.5s;
 }
 
 .lees-meer-bottom-person:hover {
-  transform: scale(1.015);
+  transform: scale(1.15);
 }
 .white-block-mid {
   display: block;
@@ -404,6 +404,7 @@ h1 {
 
 .jordan-poker:hover {
   transform: scale(-1.1);
+  transition-delay: 0.8s;
 }
 
 .titel-jordan-poker {
@@ -430,15 +431,15 @@ h1 {
   height: 42px;
   width: 93px;
   margin: 0 auto;
-  padding-left: 230px;
+  margin-left: 230px;
   position: absolute;
-  padding-top: 300px;
+  margin-top: 300px;
   z-index: 15;
   transition: transform 0.5s;
 }
 
 .lees-meer-bottom-poker:hover {
-  transform: scale(1.015);
+  transform: scale(1.15);
 }
 
 .white-block-low {
@@ -484,7 +485,7 @@ h1 {
 .facebook-logo {
   height: 64px;
   margin-top: 25px;
-  margin-left: 569px;
+  margin-left: 613px;
   position: absolute;
   transition: transform 0.5s;
 }
@@ -493,22 +494,20 @@ h1 {
   transform: scale(1.15);
 }
 
-
 .facebook-text {
   font-size: 25px;
   color: white;
   font-weight: lighter;
   display: block;
-  margin-left: 656px;
+  margin-left: 700px;
   margin-top: 45px;
   position: absolute;
 }
 
-
 .linkedin-logo {
   height: 64px;
   margin-top: 25px;
-  margin-left: 1011px;
+  margin-left: 1055px;
   position: absolute;
   transition: transform 0.5s;
 }
@@ -522,7 +521,7 @@ h1 {
   color: white;
   font-weight: lighter;
   display: block;
-  margin-left: 1102px;
+  margin-left: 1146px;
   margin-top: 45px;
   position: absolute;
 }
@@ -535,6 +534,7 @@ h1 {
   margin-left: 60px;
   margin-top: 352px;
   position: absolute;
+  text-decoration: underline;
 }
 
 .sign-for-more {
